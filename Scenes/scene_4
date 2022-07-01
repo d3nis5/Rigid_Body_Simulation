@@ -1,0 +1,45 @@
+m h cube 	Models/cube.obj
+m p plane 	Models/plane.obj
+m h pyramid	Models/pyramid.obj
+
+o pyramid0 pyramid 3500.0
+1.0 0.84 0.0 	color
+0.0 10.0 0.0	position
+0.0 0.0 90.0	rotation
+6.0 0.0 0.0	velocity vector
+
+o pyramid1 pyramid 3500.0
+1.0 0.84 0.0 	color
+6.0 10.0 0.0	position
+0.0 0.0 90.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o pyramid2 pyramid 3500.0
+1.0 0.84 0.0 	color
+10.0 20.0 0.0	position
+0.0 0.0 45.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o pyramid3 pyramid 3500.0
+1.0 0.84 0.0 	color
+8.0 20.0 0.0	position
+0.0 7.0 6.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o pyramid4 pyramid 3500.0
+1.0 0.84 0.0 	color
+9.0 20.0 -2.0	position
+21.0 45.0 25.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o pyramid5 pyramid 3500.0
+1.0 0.84 0.0 	color
+20.0 20.0 0.0	position
+0.0 0.0 45.0	rotation
+-5.0 0.0 0.0	velocity vector
+
+o ground plane INFINITY
+0.26 0.26 0.26 	color
+0.0 0.0 0.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector

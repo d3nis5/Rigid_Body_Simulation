@@ -1,0 +1,112 @@
+m p plane 	Models/plane.obj
+m p long_plane 	Models/long_plane.obj
+m h block	Models/block.obj
+m s sphere	Models/sphere_smooth.obj 1.0
+
+o sphere0 sphere 3500
+1.0 1.0 1.0	color
+0.2 5.1 25.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 -60.0	velocity vector
+
+o sphere01 sphere 3500
+0.98 0.5 0.447	color
+0.2 7.1 50.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 -90.0	velocity vector
+
+o sphere00 sphere 3500
+0.9 0.8 0.5	color
+35.0 5.1 -10.0	position
+0.0 0.0 0.0	rotation
+-60.0 0.0 0.0	velocity vector
+
+o sphere1 sphere 3500
+1.0 0.0 0.0	color
+0.0 1.1 -4.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere2 sphere 3500
+1.0 0.0 0.0	color
+-1.0 1.1 -5.5	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere3 sphere 3500
+1.0 0.0 0.0	color
+1.0 1.1 -5.5	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere4 sphere 3500
+1.0 0.0 0.0	color
+0.0 1.1 -6.5	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere5 sphere 3500
+1.0 0.0 0.0	color
+1.5 1.1 -7.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere6 sphere 3500
+1.0 0.0 0.0	color
+-1.5 1.1 -7.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere7 sphere 3500
+1.0 0.0 0.0	color
+1.6 1.1 -8.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere8 sphere 3500
+1.0 0.0 0.0	color
+-1.6 1.1 -8.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere9 sphere 3500
+1.0 0.0 0.0	color
+-2.6 1.1 -8.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere9 sphere 3500
+1.0 0.0 0.0	color
+2.6 1.1 -8.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o ground plane INFINITY
+0.26 0.26 0.26	color
+0.0 0.0 0.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o back long_plane INFINITY
+0.26 0.26 0.26	color
+0.0 1.5 -20.01	position
+90.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o front long_plane INFINITY
+0.26 0.26 0.26	color
+0.0 1.5 20.01	position
+-90.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o side0 long_plane INFINITY
+0.26 0.26 0.26	color
+20.01 1.5 0.0	position
+90.0 0.0 90.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o side1 long_plane INFINITY
+0.26 0.26 0.26	color
+-20.01 1.5 0.0	position
+90.0 0.0 -90.0	rotation
+0.0 0.0 0.0	velocity vector

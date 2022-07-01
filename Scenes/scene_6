@@ -1,0 +1,32 @@
+m s sphere	Models/sphere_smooth.obj 1.0
+m p plane 	Models/big_plane.obj
+
+o sphere0 sphere 3500.0
+1.0 0.0 0.0	color
+-3.0 6.5 0.0	position
+0.0 0.0 0.0	rotation
+8.0 0.0 0.0	velocity vector
+
+o sphere1 sphere 1500.0
+1.0 0.0 0.0	color
+3.0 5.5 0.0	position
+0.0 45.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere2 sphere 1500.0
+1.0 0.0 0.0	color
+2.0 10.5 0.0	position
+31.0 34.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere3 sphere 1500.0
+1.0 0.0 0.0	color
+1.0 20.5 1.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o ground plane INFINITY
+0.26 0.26 0.26	color
+0.0 0.0 0.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector

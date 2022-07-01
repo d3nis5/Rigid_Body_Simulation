@@ -1,0 +1,21 @@
+m h cube 	Models/cube.obj
+m p plane 	Models/big_plane.obj
+m s sphere	Models/sphere_smooth.obj 1.0
+
+o cube0 cube 3500.0
+0.39 0.58 0.93	color
+0.0 6.0 -1.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o sphere sphere 1500.0
+1.0 0.0 0.0	color
+1.75 9.5 0.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
+
+o ground plane INFINITY
+0.26 0.26 0.26	color
+0.0 0.0 0.0	position
+0.0 0.0 0.0	rotation
+0.0 0.0 0.0	velocity vector
