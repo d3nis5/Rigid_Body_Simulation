@@ -34,7 +34,7 @@
 #include "PlaneShape.h"
 #include "Sphere.h"
 
-namespace fs = std:filesystem;
+namespace fs = std::filesystem;
 
 /**
  * @brief Class for managing 3D models
