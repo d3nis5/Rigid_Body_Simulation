@@ -92,8 +92,8 @@ bool Scene::loadScene(fs::path filename)
 						break;
 					}
 
-					fs::path pathToModel = std::experimental::filesystem::u8path(ROOT_DIR);
-					fs::path model = std::experimental::filesystem::path(modelPath);
+					fs::path pathToModel = std::filesystem::u8path(ROOT_DIR);
+					fs::path model = std::filesystem::path(modelPath);
 					pathToModel += model;
 
 					if (!modelManager.loadModel(pathToModel, modelName, type, radius))

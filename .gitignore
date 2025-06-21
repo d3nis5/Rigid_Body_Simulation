@@ -1,2 +1,3 @@
 /build/*
+.vscode/*
 Source/helpers/RootDir.h

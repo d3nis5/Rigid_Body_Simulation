@@ -13,8 +13,7 @@
 #ifndef MODEL_MANAGER_H
 #define MODEL_MANAGER_H
 
-
-#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+#define GLM_ENABLE_EXPERIMENTAL
 
 #include <iostream>
 #include <fstream>
@@ -24,7 +23,7 @@
 #include <map>
 #include <stdio.h>
 #include <glm/glm.hpp>
-#include <experimental/filesystem>
+#include <filesystem>
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -35,7 +34,7 @@
 #include "PlaneShape.h"
 #include "Sphere.h"
 
-namespace fs = std::experimental::filesystem;
+namespace fs = std:filesystem;
 
 /**
  * @brief Class for managing 3D models

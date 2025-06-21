@@ -12,6 +12,7 @@
 #ifndef OBJECT_H
 #define OBJECT_H
 
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtc/matrix_transform.hpp>
 
 #include "Hull.h"

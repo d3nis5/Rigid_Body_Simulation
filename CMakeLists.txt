@@ -18,7 +18,7 @@ configure_file(${SRC_DIR}/helpers/RootDir.h.in ${SRC_DIR}/helpers/RootDir.h)
 # Executable definitions and properties
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE "${INCLUDE_DIR}")
-set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 17)
 if(NOT WIN32)
 	target_link_libraries(${PROJECT_NAME} stdc++fs)
 endif()

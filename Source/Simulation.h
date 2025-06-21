@@ -12,6 +12,7 @@
 #ifndef SIMULATION_H
 #define SIMULATION_H
 
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtc/matrix_transform.hpp>
 
 #include "Renderer.h"

@@ -12,6 +12,7 @@
 #ifndef COLLISION_DETECTION_NARROW_H
 #define COLLISION_DETECTION_NARROW_H
 
+#define GLM_ENABLE_EXPERIMENTAL
 #include <glm/glm.hpp>
 #include <glm/gtx/string_cast.hpp>
 #include <vector>

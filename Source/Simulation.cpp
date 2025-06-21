@@ -103,7 +103,7 @@ bool Simulation::initialize()
 	}
 
 	fs::path vertex = fs::path("Shaders/vertex.vert");
-	fs::path fragment = std::experimental::filesystem::path("Shaders/fragment.frag");
+	fs::path fragment = std::filesystem::path("Shaders/fragment.frag");
 
 	vertexShaderPath += vertex;
 	fragmentShaderPath += fragment;
