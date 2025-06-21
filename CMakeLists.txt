@@ -27,7 +27,7 @@ endif()
 CPMAddPackage(
   NAME glfw
   GIT_REPOSITORY "https://github.com/glfw/glfw.git"
-  GIT_TAG "3.2"
+  GIT_TAG "3.4"
   OPTIONS
     "GLFW_BUILD_EXAMPLES OFF"
     "GLFW_BUILD_TESTS OFF"
@@ -40,7 +40,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE "${GLFW_SOURCE_DIR}/include")
 target_compile_definitions(${PROJECT_NAME} PRIVATE "GLFW_INCLUDE_NONE")
 
 # GLM
-CPMAddPackage("https://github.com/g-truc/glm.git#0.9.9.8")
+CPMAddPackage("https://github.com/g-truc/glm.git#1.0.1")
 
 # GLAD
 set(GLAD_DIR "${LIB_DIR}/glad")
